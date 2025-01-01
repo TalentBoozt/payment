@@ -1,0 +1,52 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### environments ###
+.env
+/client/src/environments/
+
+### temp assets ###
+/client/src/assets/temp/
+
+### test files ###
+/client/test/
+/client/dist/
+
+/client/src/app/shared/utilities/utilities.ts
+/client/src/app/shared/utilities/pricing.utilities.ts
+/client/src/app/shared/utilities/products.utilities.ts
+/client/src/app/shared/utilities/faq.utilities.ts
+*.*~
+
+/GeoLite2-City.mmdb
